@@ -54,6 +54,14 @@ a { text-decoration: none; color: inherit; }
   font-size: 16px;
   font-weight: 700;
   color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 .nav-links {
   display: flex;
@@ -264,6 +272,9 @@ a { text-decoration: none; color: inherit; }
   font-weight: 700;
   color: var(--accent);
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .footer-tagline {
   font-size: 12px;
